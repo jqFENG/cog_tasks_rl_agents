@@ -9,7 +9,7 @@ import numpy as np
 
 env = gym.make('Simple_Copy_Repeat-v0', n_char=5, size=3, repeat=3)
 
-N_tr = 2000
+N_tr = 10000
 N_tst = 1000
 
 BATCH_SIZE = 32
